@@ -14,6 +14,9 @@
 		D3A902B7212DE77100BE3AFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A902B5212DE77100BE3AFC /* LaunchScreen.storyboard */; };
 		D3A902C2212DE77200BE3AFC /* Shopping_List_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A902C1212DE77200BE3AFC /* Shopping_List_TestTests.swift */; };
 		D3A902CD212DE77200BE3AFC /* Shopping_List_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A902CC212DE77200BE3AFC /* Shopping_List_TestUITests.swift */; };
+		D3A902DB21305A6800BE3AFC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A902DA21305A6800BE3AFC /* ListViewController.swift */; };
+		D3A902DD2130716700BE3AFC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A902DC2130716700BE3AFC /* Item.swift */; };
+		D3A902DF2130F0E700BE3AFC /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A902DE2130F0E700BE3AFC /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		D3A902C8212DE77200BE3AFC /* Shopping List TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopping List TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A902CC212DE77200BE3AFC /* Shopping_List_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_List_TestUITests.swift; sourceTree = "<group>"; };
 		D3A902CE212DE77200BE3AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A902DA21305A6800BE3AFC /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		D3A902DC2130716700BE3AFC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D3A902DE2130F0E700BE3AFC /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		D3A902AB212DE74F00BE3AFC /* Shopping List Test */ = {
 			isa = PBXGroup;
 			children = (
+				D3A902DA21305A6800BE3AFC /* ListViewController.swift */,
+				D3A902DE2130F0E700BE3AFC /* AddItemViewController.swift */,
+				D3A902DC2130716700BE3AFC /* Item.swift */,
 				D3A902AC212DE74F00BE3AFC /* AppDelegate.swift */,
 				D3A902AE212DE74F00BE3AFC /* ViewController.swift */,
 				D3A902B0212DE74F00BE3AFC /* Main.storyboard */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A902DF2130F0E700BE3AFC /* AddItemViewController.swift in Sources */,
+				D3A902DD2130716700BE3AFC /* Item.swift in Sources */,
 				D3A902AF212DE74F00BE3AFC /* ViewController.swift in Sources */,
 				D3A902AD212DE74F00BE3AFC /* AppDelegate.swift in Sources */,
+				D3A902DB21305A6800BE3AFC /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
